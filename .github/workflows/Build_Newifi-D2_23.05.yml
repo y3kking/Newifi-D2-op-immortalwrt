@@ -91,7 +91,7 @@ jobs:
 
     - name: Configuration Customization 
       env:
-        CONFIG_FILE: '.config23.05'
+        CONFIG_FILE: '.config'
       run: |
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         chmod +x ./customize.sh && ./customize.sh
