@@ -115,4 +115,4 @@ jobs:
       uses: actions/upload-artifact@main
       with:
         name: immortalwrt_23.05${{ env.FILE_DATE }}
-        path: openwrt/bin/targets/ramips/mt7621
+        path: openwrt/bin/targets/ramips/mt7621/immortalwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin
